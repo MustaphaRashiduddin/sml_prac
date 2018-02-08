@@ -26,3 +26,15 @@ fun occFromIth(str, n, ch) = if n >= size(str) then 0 else aux(str, size(str)-1,
 fun occInString(str, ch) = aux(str, size(str)-1, 0, ch)
 
 (* 2.6 *)
+fun notDivisible(d, n) = d mod n <> 0
+
+(* 2.7 *)
+(*
+ * fun notDivisibleRange(a, b, c) = if a = b then 
+ *                                   notDivisible(a, c) 
+ *                                  else 
+ *                                    if notDivisible(a+1)
+ *                                     true
+ *                                    else
+ *)
+
