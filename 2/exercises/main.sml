@@ -32,7 +32,10 @@ fun notDivisible(d, n) = n mod d <> 0
 fun notDivisibleRange(a, b, c) = if a = b then 
                                    notDivisible(a, c) 
                                  else 
-                                   if notDivisible(a, c) then
+                                   if notDivisible(a, c) <> true then
                                      false
                                    else
                                      notDivisibleRange(a+1, b, c)
+
+(* 2.7 b *)
+fun prime(n) = notDivisibleRange(2, n-1, n)
