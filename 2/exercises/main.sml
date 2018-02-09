@@ -51,3 +51,7 @@ fun nextPrime(n) = auxNextPrime(n+1)
  * c) TODO evaluation steps for f(2, 3)
  * d) a function that takes 2 parameters of the integer type and returns an integer (i don't know if that's the mathematical meaning though)
  *)
+
+ 2.9
+ a) bool * int -> int
+ b)
