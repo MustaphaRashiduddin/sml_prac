@@ -28,7 +28,7 @@ fun occInString(str, ch) = aux(str, size(str)-1, 0, ch)
 (* 2.6 *)
 fun notDivisible(d, n) = n mod d <> 0
 
-(* 2.7 *)
+(* 2.7 a *)
 fun notDivisibleRange(a, b, c) = if a = b then 
                                    notDivisible(a, c) 
                                  else 
